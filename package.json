@@ -3,8 +3,15 @@
   "version": "0.1.0",
   "packageManager": "pnpm@9.0.6",
   "description": "",
+  "author": {
+    "name": "hywax",
+    "url": "https://hywax.space/"
+  },
   "license": "MIT",
-  "repository": "hywax/production-calendar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hywax/production-calendar.git"
+  },
   "exports": {
     "./sources/*": {
       "types": "./sources/*.d.ts",
