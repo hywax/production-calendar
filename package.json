@@ -31,7 +31,8 @@
     "build": "unbuild",
     "lint": "eslint . --fix",
     "test:types": "tsc --noEmit --skipLibCheck",
-    "release": "pnpm build && changelogen --release --push && pnpm publish"
+    "release": "pnpm build && changelogen --release --push && pnpm publish",
+    "production-calendar": "pnpm jiti src/cli"
   },
   "dependencies": {
     "citty": "^0.1.6"
