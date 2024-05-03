@@ -27,6 +27,7 @@
   "scripts": {
     "build": "unbuild",
     "lint": "eslint . --fix",
+    "test:types": "tsc --noEmit --skipLibCheck",
     "release": "pnpm build && changelogen --release --push && pnpm publish"
   },
   "devDependencies": {
