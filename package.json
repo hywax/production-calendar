@@ -46,6 +46,8 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.16.1",
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
     "@types/node": "^20.12.8",
     "changelogen": "^0.5.5",
     "jiti": "^1.21.0",
