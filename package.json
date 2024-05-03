@@ -43,7 +43,8 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "citty": "^0.1.6"
+    "citty": "^0.1.6",
+    "consola": "^3.2.3"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.16.1",
