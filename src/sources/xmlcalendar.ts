@@ -8,7 +8,7 @@ export default defineSource((options: XmlCalendarOptions = { lang: 'ru' }) => {
   return {
     name: 'xmlcalendar',
     options,
-    getEvents() {
+    async getEvents() {
       // @todo implement this method
       return []
     },

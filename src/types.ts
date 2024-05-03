@@ -4,14 +4,16 @@ export interface Event {
   description?: string
 }
 
+export type SourceName = 'xmlcalendar' | string
+
 export interface Source {
-  name: string
+  name: SourceName
   options?: any
-  getEvents: (year: number) => Event[]
+  getEvents: (year: number) => Promise<Event[]>
 }
 
 export interface Calendar {
   getEvents: () => Event[]
   getIcs: () => string
-  saveToFile: (path: string) => void
+  saveToFile: (path: string) => Promise<void>
 }
