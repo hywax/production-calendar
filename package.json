@@ -32,6 +32,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.16.1",
+    "@types/node": "^20.12.8",
     "changelogen": "^0.5.5",
     "typescript": "^5.4.5",
     "unbuild": "^2.0.0"
