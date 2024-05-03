@@ -1,23 +1,26 @@
-import type { Calendar, Event, Source } from './types'
+import fs from 'node:fs/promises'
+import type { Calendar, Source } from './types'
 
 export interface CreateCalendarOptions {
-  source?: Source
-  year?: number
+  source: Source
+  year: number
 }
 
-export function createCalendar(_options: CreateCalendarOptions = {}): Calendar {
+export async function createCalendar(options: CreateCalendarOptions): Promise<Calendar> {
+  const { source, year } = options
+  const events = await source.getEvents(year)
+
   return {
     getIcs(): string {
       // @todo implement this method
       return ''
     },
-    getEvents(): Event[] {
-      // @todo implement this method
-      return []
+    getEvents() {
+      return events
     },
-    saveToFile(_path: string): Promise<void> {
+    saveToFile(path: string): Promise<void> {
       // @todo implement this method
-      return Promise.resolve()
+      return fs.writeFile(path, '')
     },
   }
 }
