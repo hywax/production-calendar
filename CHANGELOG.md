@@ -1,6 +1,28 @@
 # Changelog
 
 
+## v0.3.0
+
+[compare changes](https://github.com/hywax/production-calendar/compare/v0.2.0...v0.3.0)
+
+### 🏡 Chore
+
+- Cli args list ([0bef8b5](https://github.com/hywax/production-calendar/commit/0bef8b5))
+- Change options key ([3afd907](https://github.com/hywax/production-calendar/commit/3afd907))
+- Provide source options ([beed8aa](https://github.com/hywax/production-calendar/commit/beed8aa))
+- Xmlcalendar options lang ([59b9d25](https://github.com/hywax/production-calendar/commit/59b9d25))
+- Wrap promise ([467e3cd](https://github.com/hywax/production-calendar/commit/467e3cd))
+- Base calendar ([aaa5c1d](https://github.com/hywax/production-calendar/commit/aaa5c1d))
+- ⚠️  Implements cli ([fc19ac9](https://github.com/hywax/production-calendar/commit/fc19ac9))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Implements cli ([fc19ac9](https://github.com/hywax/production-calendar/commit/fc19ac9))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+
 ## v0.2.0
 
 [compare changes](https://github.com/hywax/production-calendar/compare/v0.1.0...v0.2.0)
