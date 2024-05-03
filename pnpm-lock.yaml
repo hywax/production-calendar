@@ -21,6 +21,9 @@ importers:
       changelogen:
         specifier: ^0.5.5
         version: 0.5.5
+      jiti:
+        specifier: ^1.21.0
+        version: 1.21.0
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
