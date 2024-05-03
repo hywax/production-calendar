@@ -30,6 +30,9 @@
     "test:types": "tsc --noEmit --skipLibCheck",
     "release": "pnpm build && changelogen --release --push && pnpm publish"
   },
+  "dependencies": {
+    "citty": "^0.1.6"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^2.16.1",
     "@types/node": "^20.12.8",
