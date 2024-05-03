@@ -6,7 +6,7 @@ export const builtinSources = {
   xmlcalendar: 'production-calendar/sources/xmlcalendar',
 } as const
 
-type ExtractOptions<T> = T extends (opts: infer Options) => any ? Options : never
+type ExtractOptions<T> = T extends (options: infer Options) => any ? Options : never
 
 export interface BuiltinSourceOptions {
   xmlcalendar: ExtractOptions<
