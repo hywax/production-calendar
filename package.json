@@ -1,0 +1,36 @@
+{
+  "name": "production-calendar",
+  "version": "0.0.0",
+  "packageManager": "pnpm@9.0.6",
+  "description": "",
+  "license": "MIT",
+  "repository": "hywax/production-calendar",
+  "exports": {
+    "./sources/*": {
+      "types": "./sources/*.d.ts",
+      "import": "./sources/*.mjs",
+      "require": "./sources/*.cjs"
+    },
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "sources"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "lint": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.16.1",
+    "typescript": "^5.4.5",
+    "unbuild": "^2.0.0"
+  }
+}
