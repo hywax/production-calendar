@@ -6,6 +6,7 @@ export interface Event {
 
 export interface Source {
   name: string
+  options?: any
   getEvents: (year: number) => Event[]
 }
 
