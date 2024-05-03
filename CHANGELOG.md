@@ -1,6 +1,45 @@
 # Changelog
 
 
+## v0.2.0
+
+[compare changes](https://github.com/hywax/production-calendar/compare/v0.1.0...v0.2.0)
+
+### 📖 Documentation
+
+- Contributing ([b6bd87b](https://github.com/hywax/production-calendar/commit/b6bd87b))
+- Code of conduct ([84135ff](https://github.com/hywax/production-calendar/commit/84135ff))
+- Author & repository fields ([3418501](https://github.com/hywax/production-calendar/commit/3418501))
+
+### 🏡 Chore
+
+- ResolveJsonModule true ([72e6f74](https://github.com/hywax/production-calendar/commit/72e6f74))
+- ⚠️  Add cli production-calendar ([c26f451](https://github.com/hywax/production-calendar/commit/c26f451))
+- Production-calendar cli script ([df75ddf](https://github.com/hywax/production-calendar/commit/df75ddf))
+- **issue template:** Bug ([0a58c2f](https://github.com/hywax/production-calendar/commit/0a58c2f))
+- **issue template:** Feature request ([33ea7e5](https://github.com/hywax/production-calendar/commit/33ea7e5))
+- **issue template:** Question ([958eb88](https://github.com/hywax/production-calendar/commit/958eb88))
+- Feature pull request template ([124788a](https://github.com/hywax/production-calendar/commit/124788a))
+- Update CONTRIBUTORS ([9ac7b43](https://github.com/hywax/production-calendar/commit/9ac7b43))
+- Commitlint config ([f37a839](https://github.com/hywax/production-calendar/commit/f37a839))
+- Husky hooks ([c80f449](https://github.com/hywax/production-calendar/commit/c80f449))
+
+### 🤖 CI
+
+- Renovate config ([c3f92ed](https://github.com/hywax/production-calendar/commit/c3f92ed))
+- Ci plan ([d97afa2](https://github.com/hywax/production-calendar/commit/d97afa2))
+- Contributor credits plan ([5914f5e](https://github.com/hywax/production-calendar/commit/5914f5e))
+- Welcome plan ([4000432](https://github.com/hywax/production-calendar/commit/4000432))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Add cli production-calendar ([c26f451](https://github.com/hywax/production-calendar/commit/c26f451))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+- Bot ([@hywax-assistant](http://github.com/hywax-assistant))
+
 ## v0.1.0
 
 
