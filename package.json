@@ -20,6 +20,9 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "bin": {
+    "production-calendar": "./dist/cli.mjs"
+  },
   "files": [
     "dist",
     "sources"

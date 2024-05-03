@@ -7,6 +7,7 @@ export default defineBuildConfig({
   },
   entries: [
     'src/index',
+    'src/cli',
     {
       input: 'src/sources/',
       outDir: 'sources',
