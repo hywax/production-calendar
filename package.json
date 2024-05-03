@@ -39,7 +39,8 @@
     "lint": "eslint . --fix",
     "test:types": "tsc --noEmit --skipLibCheck",
     "release": "pnpm build && changelogen --release --push && pnpm publish",
-    "production-calendar": "pnpm jiti src/cli"
+    "production-calendar": "pnpm jiti src/cli",
+    "prepare": "husky"
   },
   "dependencies": {
     "citty": "^0.1.6"
@@ -50,6 +51,7 @@
     "@commitlint/config-conventional": "^19.2.2",
     "@types/node": "^20.12.8",
     "changelogen": "^0.5.5",
+    "husky": "^9.0.11",
     "jiti": "^1.21.0",
     "lint-staged": "^15.2.2",
     "typescript": "^5.4.5",
