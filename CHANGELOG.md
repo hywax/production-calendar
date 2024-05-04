@@ -1,6 +1,27 @@
 # Changelog
 
 
+## v0.4.0
+
+[compare changes](https://github.com/hywax/production-calendar/compare/v0.3.0...v0.4.0)
+
+### 🩹 Fixes
+
+- Console success file path ([3529655](https://github.com/hywax/production-calendar/commit/3529655))
+
+### 🏡 Chore
+
+- Create calendar ([f88219a](https://github.com/hywax/production-calendar/commit/f88219a))
+- ⚠️  Implements xmlcalendar ([e693507](https://github.com/hywax/production-calendar/commit/e693507))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Implements xmlcalendar ([e693507](https://github.com/hywax/production-calendar/commit/e693507))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+
 ## v0.3.0
 
 [compare changes](https://github.com/hywax/production-calendar/compare/v0.2.0...v0.3.0)
