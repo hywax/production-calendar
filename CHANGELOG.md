@@ -1,6 +1,28 @@
 # Changelog
 
 
+## v0.5.0
+
+[compare changes](https://github.com/hywax/production-calendar/compare/v0.4.1...v0.5.0)
+
+### 🏡 Chore
+
+- Xmlcalendar options lang set optional ([c926469](https://github.com/hywax/production-calendar/commit/c926469))
+- ⚠️  Generator list sources ([0886719](https://github.com/hywax/production-calendar/commit/0886719))
+- Change range source name ([142aa00](https://github.com/hywax/production-calendar/commit/142aa00))
+- Rename name to file property ([7e58ddc](https://github.com/hywax/production-calendar/commit/7e58ddc))
+- Add lang property ([874a3af](https://github.com/hywax/production-calendar/commit/874a3af))
+- Generate calendars ([93aad84](https://github.com/hywax/production-calendar/commit/93aad84))
+- Rename sources files ([9047c94](https://github.com/hywax/production-calendar/commit/9047c94))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Generator list sources ([0886719](https://github.com/hywax/production-calendar/commit/0886719))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+
 ## v0.4.1
 
 [compare changes](https://github.com/hywax/production-calendar/compare/v0.4.0...v0.4.1)
