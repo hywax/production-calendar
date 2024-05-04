@@ -8,18 +8,22 @@ const yearStart = 2024
 const sources = [
   {
     file: 'ru.ics',
+    lang: 'Русский',
     executor: xmlcalendar({}),
   },
   {
     file: 'by.ics',
+    lang: 'Белорусский',
     executor: xmlcalendar({ lang: 'by' }),
   },
   {
     file: 'kz.ics',
+    lang: 'Казахский',
     executor: xmlcalendar({ lang: 'kz' }),
   },
   {
     file: 'uz.ics',
+    lang: 'Узбекский',
     executor: xmlcalendar({ lang: 'uz' }),
   },
 ]
