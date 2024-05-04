@@ -67,7 +67,7 @@ const main = defineCommand({
     }
 
     await calendar.saveToFile(args.file)
-    consola.success('Calendar saved to `%s`', args.path)
+    consola.success('Calendar saved to `%s`', args.file)
   },
 })
 
