@@ -3,7 +3,7 @@ import type { Event } from '../types'
 import { defineSource } from './utils'
 
 export interface XmlCalendarOptions {
-  lang: 'ru' | 'by' | 'kz' | 'uz'
+  lang?: 'ru' | 'by' | 'kz' | 'uz'
   dateFormatLocale?: Intl.UnicodeBCP47LocaleIdentifier
 }
 
