@@ -7,19 +7,19 @@ import { createCalendar } from './calendar'
 const yearStart = 2024
 const sources = [
   {
-    name: 'ru.ics',
+    file: 'ru.ics',
     executor: xmlcalendar({}),
   },
   {
-    name: 'by.ics',
+    file: 'by.ics',
     executor: xmlcalendar({ lang: 'by' }),
   },
   {
-    name: 'kz.ics',
+    file: 'kz.ics',
     executor: xmlcalendar({ lang: 'kz' }),
   },
   {
-    name: 'uz.ics',
+    file: 'uz.ics',
     executor: xmlcalendar({ lang: 'uz' }),
   },
 ]
@@ -56,7 +56,7 @@ async function main() {
       year: yearStart,
     })
 
-    await calendar.saveToFile(path.join(__dirname, '../data/', source.name))
+    await calendar.saveToFile(path.join(__dirname, '../data/', source.file))
   }
 }
 
