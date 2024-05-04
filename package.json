@@ -45,7 +45,8 @@
   "dependencies": {
     "citty": "^0.1.6",
     "consola": "^3.2.3",
-    "fast-xml-parser": "^4.3.6"
+    "fast-xml-parser": "^4.3.6",
+    "ics": "^3.7.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.16.1",
