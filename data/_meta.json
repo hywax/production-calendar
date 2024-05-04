@@ -1,0 +1,22 @@
+[
+  {
+    "file": "russia.ics",
+    "lang": "Русский",
+    "source": "xmlcalendar"
+  },
+  {
+    "file": "belarus.ics",
+    "lang": "Белорусский",
+    "source": "xmlcalendar"
+  },
+  {
+    "file": "kazakhstan.ics",
+    "lang": "Казахский",
+    "source": "xmlcalendar"
+  },
+  {
+    "file": "uzbekistan.ics",
+    "lang": "Узбекский",
+    "source": "xmlcalendar"
+  }
+]

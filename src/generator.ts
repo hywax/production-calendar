@@ -1,5 +1,6 @@
 import path from 'node:path'
 import process from 'node:process'
+import fs from 'node:fs/promises'
 import xmlcalendar from './sources/xmlcalendar'
 import type { Source } from './types'
 import { createCalendar } from './calendar'
@@ -54,13 +55,24 @@ function rangeSource(source: Source, years: number[]): Source {
 }
 
 async function main() {
+  const dataPath = path.join(__dirname, '../data')
+  const meta = []
+
   for (const source of sources) {
     const calendar = await createCalendar({
       source: rangeSource(source.executor, getYearsRange(yearStart, new Date().getFullYear())),
       year: yearStart,
     })
 
-    await calendar.saveToFile(path.join(__dirname, '../data/', source.file))
+    await calendar.saveToFile(path.join(dataPath, source.file))
+
+    meta.push({
+      file: source.file,
+      lang: source.lang,
+      source: source.executor.name,
+    })
+
+    await fs.writeFile(path.join(dataPath, '_meta.json'), JSON.stringify(meta, null, 2))
   }
 }
 
