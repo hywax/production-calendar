@@ -36,7 +36,7 @@ function getYearsRange(from: number, to: number): number[] {
 
 function rangeSource(source: Source, years: number[]): Source {
   return {
-    name: source.name,
+    name: `${source.name}-range`,
     async getEvents() {
       const events = []
 
