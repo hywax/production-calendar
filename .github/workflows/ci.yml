@@ -45,3 +45,6 @@ jobs:
 
       - name: Build
         run: pnpm build
+
+      - name: CLI
+        run: pnpm production-calendar
