@@ -9,7 +9,7 @@
 This project helps to automatically create a production calendar based on working days and holidays.
 
 > [!TIP]
-> To connect to your calendars, use the instructions on my blog: [Production Calendar in iCal](https://hywax.space/)
+> To connect to your calendars, use the instructions on my blog: [Production Calendar in iCal](https://hywax.space/posts/production-calendar)
 
 ## 🎯 Features
 
