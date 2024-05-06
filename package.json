@@ -1,6 +1,6 @@
 {
   "name": "production-calendar",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "packageManager": "pnpm@9.0.6",
   "description": "",
   "author": {

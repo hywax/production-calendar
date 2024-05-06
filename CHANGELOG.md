@@ -1,6 +1,41 @@
 # Changelog
 
 
+## v0.5.1
+
+[compare changes](https://github.com/hywax/production-calendar/compare/v0.5.0...v0.5.1)
+
+### 💅 Refactors
+
+- Create calendar handler ([1cd437b](https://github.com/hywax/production-calendar/commit/1cd437b))
+
+### 📖 Documentation
+
+- Update readme ([be08d93](https://github.com/hywax/production-calendar/commit/be08d93))
+
+### 🏡 Chore
+
+- Generator meta file ([a965e44](https://github.com/hywax/production-calendar/commit/a965e44))
+- Update CONTRIBUTORS ([93b92ab](https://github.com/hywax/production-calendar/commit/93b92ab))
+- Update CONTRIBUTORS ([18c09f2](https://github.com/hywax/production-calendar/commit/18c09f2))
+- Add english readme ([96f4ff9](https://github.com/hywax/production-calendar/commit/96f4ff9))
+- Generate calendars ([9cc45bc](https://github.com/hywax/production-calendar/commit/9cc45bc))
+- Update calendars ([a8dff71](https://github.com/hywax/production-calendar/commit/a8dff71))
+
+### 🤖 CI
+
+- Generate calendars plan ([1be823c](https://github.com/hywax/production-calendar/commit/1be823c))
+- Change add files on commit step ([77278ce](https://github.com/hywax/production-calendar/commit/77278ce))
+- Change github token position ([4b1b4b1](https://github.com/hywax/production-calendar/commit/4b1b4b1))
+- Update EndBug/add-and-commit@v9 ([e02612b](https://github.com/hywax/production-calendar/commit/e02612b))
+- Add token actions/checkout ([238d765](https://github.com/hywax/production-calendar/commit/238d765))
+- Add production-calendar ([b50ded2](https://github.com/hywax/production-calendar/commit/b50ded2))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+- Bot ([@hywax-assistant](http://github.com/hywax-assistant))
+
 ## v0.5.0
 
 [compare changes](https://github.com/hywax/production-calendar/compare/v0.4.1...v0.5.0)
