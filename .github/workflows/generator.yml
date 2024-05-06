@@ -30,6 +30,6 @@ jobs:
         uses: EndBug/add-and-commit@v5
         with:
           message: 'chore: update calendars'
-          add: data
+          add: 'data/*'
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
