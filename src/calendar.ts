@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises'
-import { type EventAttributes, createEvents } from 'ics'
+import type { DateTime, EventAttributes } from 'ics'
+import { createEvents } from 'ics'
 import type { Calendar, Source } from './types'
 
 export interface CreateCalendarOptions {
@@ -7,7 +8,7 @@ export interface CreateCalendarOptions {
   year: number
 }
 
-function transformDate(date: Date): [number, number, number] {
+function transformDate(date: Date): DateTime {
   return [date.getFullYear(), date.getMonth() + 1, date.getDate()]
 }
 
@@ -17,20 +18,28 @@ function nextDay(date: Date): Date {
   return nextDay
 }
 
+function dateHash(str: string): string {
+  const slice = str.split('')
+  const code = slice.reduce((hashCode: number, currentVal: string) => {
+    hashCode = currentVal.charCodeAt(0) + (hashCode << 6) + (hashCode << 16) - hashCode
+
+    return hashCode
+  }, 0)
+
+  return code.toString(16).replace('-', '')
+}
+
 export async function createCalendar(options: CreateCalendarOptions): Promise<Calendar> {
   const { source, year } = options
   const events = await source.getEvents(year)
 
   const prepareEvents = events.map<EventAttributes>((event) => {
-    const createdDate = transformDate(new Date())
-
     return {
+      uid: dateHash(`${event.title}${event.date}`),
       title: event.title,
       description: event.description,
       start: transformDate(event.date),
       end: transformDate(nextDay(event.date)),
-      lastModified: createdDate,
-      created: createdDate,
       transp: 'TRANSPARENT',
       sequence: 1,
       alarms: [
@@ -42,7 +51,9 @@ export async function createCalendar(options: CreateCalendarOptions): Promise<Ca
     }
   })
 
-  const { value: icsValue, error: icsError } = createEvents(prepareEvents)
+  const { value: icsValue, error: icsError } = createEvents(prepareEvents, {
+    productId: 'production-calendar/ics',
+  })
 
   if (icsError) {
     throw new Error(`Failed to create ICS: ${icsError.message}`)
