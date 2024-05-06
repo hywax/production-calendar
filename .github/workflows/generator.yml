@@ -31,5 +31,4 @@ jobs:
         with:
           message: 'chore: update calendars'
           add: 'data/*'
-        env:
-          GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
