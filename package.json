@@ -50,7 +50,7 @@
     "ics": "^3.7.6"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.22.0",
+    "@antfu/eslint-config": "^2.22.2",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@types/node": "^20.14.10",
