@@ -1,6 +1,36 @@
 # Changelog
 
 
+## v0.5.2
+
+[compare changes](https://github.com/hywax/production-calendar/compare/v0.5.1...v0.5.2)
+
+### 📖 Documentation
+
+- Change blog url ([76b8017](https://github.com/hywax/production-calendar/commit/76b8017))
+
+### 🏡 Chore
+
+- Update calendars ([33ba358](https://github.com/hywax/production-calendar/commit/33ba358))
+- Update calendars ([14add6c](https://github.com/hywax/production-calendar/commit/14add6c))
+- Update CONTRIBUTORS ([b03843b](https://github.com/hywax/production-calendar/commit/b03843b))
+- Update calendars ([d22f4a9](https://github.com/hywax/production-calendar/commit/d22f4a9))
+- Update calendars ([ed86fb5](https://github.com/hywax/production-calendar/commit/ed86fb5))
+- Update calendars ([bc0a71a](https://github.com/hywax/production-calendar/commit/bc0a71a))
+- Update pull request template ([2f71789](https://github.com/hywax/production-calendar/commit/2f71789))
+- Add funding link ([bd6a80f](https://github.com/hywax/production-calendar/commit/bd6a80f))
+
+### 🤖 CI
+
+- Disabled ci plan on data folder changes ([715a872](https://github.com/hywax/production-calendar/commit/715a872))
+- Change pnpm version ([4e45c94](https://github.com/hywax/production-calendar/commit/4e45c94))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+- Bot ([@hywax-assistant](http://github.com/hywax-assistant))
+- Alexander ([@hywax](http://github.com/hywax))
+
 ## v0.5.1
 
 [compare changes](https://github.com/hywax/production-calendar/compare/v0.5.0...v0.5.1)
