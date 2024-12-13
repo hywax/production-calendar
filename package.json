@@ -59,7 +59,7 @@
     "jiti": "^2.4.1",
     "lint-staged": "^15.2.11",
     "typescript": "^5.7.2",
-    "unbuild": "^2.0.0"
+    "unbuild": "^3.0.1"
   },
   "lint-staged": {
     "*.ts": "pnpm lint"
