@@ -28,6 +28,11 @@ export interface SchemaCalendarData {
 
 async function fetchCalendarData(lang: string, year: number): Promise<SchemaCalendarData> {
   const response = await fetch(`https://xmlcalendar.ru/data/${lang}/${year}/calendar.xml`)
+
+  if (!response.ok) {
+    throw new Error(`Calendar ${lang}, ${year}: ${response.statusText}`)
+  }
+
   const xml: string = await response.text()
   const parser = new XMLParser({
     attributeNamePrefix: '',

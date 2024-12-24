@@ -32,7 +32,7 @@ const sources = [
 function getYearsRange(from: number, to: number): number[] {
   const years = []
 
-  for (let year = from; year <= to; year++) {
+  for (let year = from; year <= to + 1; year++) {
     years.push(year)
   }
 
@@ -46,7 +46,11 @@ function rangeSource(source: Source, years: number[]): Source {
       const events = []
 
       for (const year of years) {
-        events.push(...await source.getEvents(year))
+        try {
+          events.push(...await source.getEvents(year))
+        } catch (error) {
+          console.warn(`Skipping... ${year} ${(error as Error).message}`)
+        }
       }
 
       return events
