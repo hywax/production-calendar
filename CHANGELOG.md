@@ -1,6 +1,28 @@
 # Changelog
 
 
+## v0.5.3
+
+[compare changes](https://github.com/hywax/production-calendar/compare/v0.5.2...v0.5.3)
+
+### 🚀 Enhancements
+
+- Request the next year ([36c76e5](https://github.com/hywax/production-calendar/commit/36c76e5))
+
+### 🏡 Chore
+
+- Update calendars ([b54e91e](https://github.com/hywax/production-calendar/commit/b54e91e))
+- Update calendars ([363f128](https://github.com/hywax/production-calendar/commit/363f128))
+- Update calendars ([202830d](https://github.com/hywax/production-calendar/commit/202830d))
+
+### 🤖 CI
+
+- Change ci strategy ([ff7fd59](https://github.com/hywax/production-calendar/commit/ff7fd59))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+
 ## v0.5.2
 
 [compare changes](https://github.com/hywax/production-calendar/compare/v0.5.1...v0.5.2)
