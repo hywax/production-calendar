@@ -15,8 +15,8 @@ importers:
         specifier: ^3.4.0
         version: 3.4.0
       fast-xml-parser:
-        specifier: ^4.5.2
-        version: 4.5.2
+        specifier: ^4.5.3
+        version: 4.5.3
       ics:
         specifier: ^3.8.1
         version: 3.8.1
@@ -26,13 +26,13 @@ importers:
         version: 2.27.3(@typescript-eslint/utils@8.4.0(eslint@8.57.0)(typescript@5.7.3))(@vue/compiler-sfc@3.4.26)(eslint@8.57.0)(typescript@5.7.3)
       '@commitlint/cli':
         specifier: ^19.7.1
-        version: 19.7.1(@types/node@22.13.4)(typescript@5.7.3)
+        version: 19.7.1(@types/node@22.13.5)(typescript@5.7.3)
       '@commitlint/config-conventional':
         specifier: ^19.7.1
         version: 19.7.1
       '@types/node':
-        specifier: ^22.13.4
-        version: 22.13.4
+        specifier: ^22.13.5
+        version: 22.13.5
       changelogen:
         specifier: ^0.5.7
         version: 0.5.7
@@ -670,8 +670,8 @@ packages:
   '@types/mdast@3.0.15':
     resolution: {integrity: sha512-LnwD+mUEfxWMa1QpDraczIn6k0Ee3SMicuYSSzS6ZYl2gKS09EClnJYGd8Du6rfc5r/GZEk5o1mRb8TaTj03sQ==}
 
-  '@types/node@22.13.4':
-    resolution: {integrity: sha512-ywP2X0DYtX3y08eFVx5fNIw7/uIv8hYUKgXoK8oayJlLnKcRfEYCxWMVE1XagUdVtCJlZT1AU4LXEABW+L1Peg==}
+  '@types/node@22.13.5':
+    resolution: {integrity: sha512-+lTU0PxZXn0Dr1NBtC7Y8cR21AJr87dLLU953CWA6pMxxv/UDc7jYAY90upcrie1nRcD6XNG5HOYEDtgW5TxAg==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -1427,8 +1427,8 @@ packages:
   fast-levenshtein@2.0.6:
     resolution: {integrity: sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==}
 
-  fast-xml-parser@4.5.2:
-    resolution: {integrity: sha512-xmnYV9o0StIz/0ArdzmWTxn9oDy0lH8Z80/8X/TD2EUQKXY4DHxoT9mYBqgGIG17DgddCJtH1M6DriMbalNsAA==}
+  fast-xml-parser@4.5.3:
+    resolution: {integrity: sha512-RKihhV+SHsIUGXObeVy9AXiBbFwkVk7Syp8XgwN5U3JV416+Gwp/GO9i0JYKmikykgz/UHRrrV4ROuZEo/T0ig==}
     hasBin: true
 
   fastq@1.17.1:
@@ -2539,8 +2539,8 @@ packages:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
 
-  strnum@1.0.5:
-    resolution: {integrity: sha512-J8bbNyKKXl5qYcR36TIO8W3mVGVHrmmxsd5PAItGkmyzwJvybiw2IVq5nqd0i4LSNSkB/sx9VHllbfFdr9k1JA==}
+  strnum@1.1.1:
+    resolution: {integrity: sha512-O7aCHfYCamLCctjAiaucmE+fHf2DYHkus2OKCn4Wv03sykfFtgeECn505X6K4mPl8CRNd/qurC9guq+ynoN4pw==}
 
   stylehacks@7.0.4:
     resolution: {integrity: sha512-i4zfNrGMt9SB4xRK9L83rlsFCgdGANfeDAYacO1pkqcE7cRHPdWHwnKZVz7WY17Veq/FvyYsRAU++Ga+qDFIww==}
@@ -2946,11 +2946,11 @@ snapshots:
       picocolors: 1.0.1
       sisteransi: 1.0.5
 
-  '@commitlint/cli@19.7.1(@types/node@22.13.4)(typescript@5.7.3)':
+  '@commitlint/cli@19.7.1(@types/node@22.13.5)(typescript@5.7.3)':
     dependencies:
       '@commitlint/format': 19.5.0
       '@commitlint/lint': 19.7.1
-      '@commitlint/load': 19.6.1(@types/node@22.13.4)(typescript@5.7.3)
+      '@commitlint/load': 19.6.1(@types/node@22.13.5)(typescript@5.7.3)
       '@commitlint/read': 19.5.0
       '@commitlint/types': 19.5.0
       tinyexec: 0.3.0
@@ -2997,7 +2997,7 @@ snapshots:
       '@commitlint/rules': 19.6.0
       '@commitlint/types': 19.5.0
 
-  '@commitlint/load@19.6.1(@types/node@22.13.4)(typescript@5.7.3)':
+  '@commitlint/load@19.6.1(@types/node@22.13.5)(typescript@5.7.3)':
     dependencies:
       '@commitlint/config-validator': 19.5.0
       '@commitlint/execute-rule': 19.5.0
@@ -3005,7 +3005,7 @@ snapshots:
       '@commitlint/types': 19.5.0
       chalk: 5.4.1
       cosmiconfig: 9.0.0(typescript@5.7.3)
-      cosmiconfig-typescript-loader: 6.1.0(@types/node@22.13.4)(cosmiconfig@9.0.0(typescript@5.7.3))(typescript@5.7.3)
+      cosmiconfig-typescript-loader: 6.1.0(@types/node@22.13.5)(cosmiconfig@9.0.0(typescript@5.7.3))(typescript@5.7.3)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -3339,7 +3339,7 @@ snapshots:
 
   '@types/conventional-commits-parser@5.0.0':
     dependencies:
-      '@types/node': 22.13.4
+      '@types/node': 22.13.5
 
   '@types/eslint@8.56.10':
     dependencies:
@@ -3366,7 +3366,7 @@ snapshots:
     dependencies:
       '@types/unist': 2.0.10
 
-  '@types/node@22.13.4':
+  '@types/node@22.13.5':
     dependencies:
       undici-types: 6.20.0
 
@@ -3756,9 +3756,9 @@ snapshots:
     dependencies:
       browserslist: 4.23.0
 
-  cosmiconfig-typescript-loader@6.1.0(@types/node@22.13.4)(cosmiconfig@9.0.0(typescript@5.7.3))(typescript@5.7.3):
+  cosmiconfig-typescript-loader@6.1.0(@types/node@22.13.5)(cosmiconfig@9.0.0(typescript@5.7.3))(typescript@5.7.3):
     dependencies:
-      '@types/node': 22.13.4
+      '@types/node': 22.13.5
       cosmiconfig: 9.0.0(typescript@5.7.3)
       jiti: 2.4.2
       typescript: 5.7.3
@@ -4278,9 +4278,9 @@ snapshots:
 
   fast-levenshtein@2.0.6: {}
 
-  fast-xml-parser@4.5.2:
+  fast-xml-parser@4.5.3:
     dependencies:
-      strnum: 1.0.5
+      strnum: 1.1.1
 
   fastq@1.17.1:
     dependencies:
@@ -5318,7 +5318,7 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  strnum@1.0.5: {}
+  strnum@1.1.1: {}
 
   stylehacks@7.0.4(postcss@8.4.49):
     dependencies:
