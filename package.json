@@ -46,14 +46,14 @@
   "dependencies": {
     "citty": "^0.1.6",
     "consola": "^3.4.0",
-    "fast-xml-parser": "^4.5.2",
+    "fast-xml-parser": "^4.5.3",
     "ics": "^3.8.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.27.3",
     "@commitlint/cli": "^19.7.1",
     "@commitlint/config-conventional": "^19.7.1",
-    "@types/node": "^22.13.4",
+    "@types/node": "^22.13.5",
     "changelogen": "^0.5.7",
     "husky": "^9.1.7",
     "jiti": "^2.4.2",
