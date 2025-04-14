@@ -1,7 +1,7 @@
 {
   "name": "production-calendar",
   "version": "0.5.3",
-  "packageManager": "pnpm@10.6.3",
+  "packageManager": "pnpm@10.8.1",
   "description": "",
   "author": {
     "name": "hywax",
@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "citty": "^0.1.6",
-    "consola": "^3.4.0",
+    "consola": "^3.4.2",
     "fast-xml-parser": "^4.5.3",
     "ics": "^3.8.1"
   },
@@ -53,12 +53,12 @@
     "@antfu/eslint-config": "^2.27.3",
     "@commitlint/cli": "^19.8.0",
     "@commitlint/config-conventional": "^19.8.0",
-    "@types/node": "^22.13.10",
+    "@types/node": "^22.14.1",
     "changelogen": "^0.6.1",
     "husky": "^9.1.7",
     "jiti": "^2.4.2",
-    "lint-staged": "^15.5.0",
-    "typescript": "^5.8.2",
+    "lint-staged": "^15.5.1",
+    "typescript": "^5.8.3",
     "unbuild": "^3.5.0"
   },
   "lint-staged": {
