@@ -46,7 +46,7 @@
   "dependencies": {
     "citty": "^0.1.6",
     "consola": "^3.4.0",
-    "fast-xml-parser": "^4.5.3",
+    "fast-xml-parser": "^5.2.1",
     "ics": "^3.8.1"
   },
   "devDependencies": {
